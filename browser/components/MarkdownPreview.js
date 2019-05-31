@@ -152,6 +152,10 @@ body p {
   .clipboardButton {
     display: none
   }
+
+  pre.code.CodeMirror {
+    white-space: pre-wrap;
+  }
 }
 
 ${allowCustomCSS ? customCSS : ''}
