@@ -240,6 +240,11 @@
       "react/no-render-return-value": "warn",
       "react/no-deprecated": "warn",
       "unicorn/filename-case": "off"
+    },
+    "settings": {
+      "import/resolver": {
+        "webpack": "webpack.config.js"
+      }
     }
   },
   "husky": {
