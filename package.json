@@ -12,6 +12,7 @@
     "jest": "jest",
     "fix": "eslint . --fix",
     "lint": "eslint .",
+    "lint:xo": "xo",
     "dev": "cross-env NODE_ENV=development node dev-scripts/dev.js",
     "watch": "webpack-dev-server --hot"
   },
