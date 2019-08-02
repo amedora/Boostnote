@@ -210,6 +210,11 @@
       "jest-localstorage-mock"
     ]
   },
+  "xo": {
+    "extends": [
+      "react"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint"
