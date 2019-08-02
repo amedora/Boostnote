@@ -240,7 +240,15 @@
       "react/no-find-dom-node": "warn",
       "react/no-render-return-value": "warn",
       "react/no-deprecated": "warn",
-      "unicorn/filename-case": "off"
+      "unicorn/filename-case": "off",
+      "unicorn/catch-error-name": "off",
+      "import/newline-after-import": "off",
+      "import/no-extraneous-dependencies": "off",
+      "import/order": "off",
+      "prefer-arrow-callback": "off",
+      "max-len": "off",
+      "padding-line-between-statements": "off",
+      "capitalized-comments": "off"
     },
     "settings": {
       "import/resolver": {
