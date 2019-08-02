@@ -237,7 +237,8 @@
       "react/no-string-refs": 0,
       "react/no-find-dom-node": "warn",
       "react/no-render-return-value": "warn",
-      "react/no-deprecated": "warn"
+      "react/no-deprecated": "warn",
+      "unicorn/filename-case": "off"
     }
   },
   "husky": {
