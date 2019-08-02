@@ -212,8 +212,33 @@
   },
   "xo": {
     "extends": [
-      "react"
-    ]
+      "react",
+      "standard",
+      "standard-jsx",
+      "plugin:react/recommended"
+    ],
+    "env": {
+      "jest": true
+    },
+    "globals": [
+      "FileReader",
+      "fetch",
+      "localStorage"
+    ],
+    "rules": {
+      "no-useless-escape": 0,
+      "prefer-const": ["warn", {
+        "destructuring": "all"
+      }],
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
+      "no-lone-blocks": "warn",
+      "react/prop-types": 0,
+      "react/no-string-refs": 0,
+      "react/no-find-dom-node": "warn",
+      "react/no-render-return-value": "warn",
+      "react/no-deprecated": "warn"
+    }
   },
   "husky": {
     "hooks": {
